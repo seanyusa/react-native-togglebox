@@ -33,7 +33,7 @@ class ToggleBox extends Component {
       {
         toValue: finalValue,
         bounciness: 0,
-        useNativeDriver: true,
+        useNativeDriver: false,
       }
     ).start()
   }
